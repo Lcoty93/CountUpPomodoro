@@ -1,16 +1,3 @@
+Pomodoro-Timer with a twist! The timer that counts UP and not down. Having a counter that counts down may tend to cause stress; instead try having a counter that counts up! Now you are aware of the time and not set on a deadline. This app provides you with 25 minutes of dedicated focus, instead of the impending feeling of a time limit. If you have anxiety or become stressed when time is running out, this “stopwatch” will feel way better. Give it a try!
+
 # React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
