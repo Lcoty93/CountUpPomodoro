@@ -8,7 +8,13 @@ function App() {
   
   return (
     <>
-     <Stopwatch />
+     <Navbar />
+     <main>
+      <Hero />
+      <Stopwatch />
+      <About />
+     </main>
+     <Footer />
     </>
   )
 }
