@@ -1,8 +1,20 @@
 body{
+  background-color: hsl(0, 0%, 95%);
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   align-items: center;
-  background-color: hsl(0, 0%, 95%);
+  padding: 0.25rem 0.25rem;
 }
 
 .stopwatch{
@@ -59,4 +71,25 @@ body{
 
 .reset-button:hover {
   background-color: hsl(205, 90%, 55%);
+}
+
+.navbar {
+  display: flex;
+  justify-content: left;
+  font-weight: bold;
+  padding: 0.25rem 0.25rem;
+  background-color: #222;
+  color: white;
+}
+
+.logo {
+  max-height: 50px;
+}
+
+footer {
+  display: flex;
+  justify-content: left;
+  padding: 0.25rem 0.25rem;
+  background-color: #222;
+  color: white;
 }
